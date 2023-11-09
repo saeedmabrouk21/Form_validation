@@ -1,0 +1,90 @@
+body {
+  /* height: 100%; */
+  background-image: url("https://previews.123rf.com/images/hollygraphic/hollygraphic1205/hollygraphic120500019/13582793-blue-planes-background-with-strippes.jpg");
+}
+.wrapper {
+  max-width: 20em;
+  position: relative;
+  padding-block: 1.2em;
+  margin: 25% auto;
+  scale: 1;
+  transition: scale 0.4s ease-in-out;
+}
+.container {
+  /* min-height: 100vh; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 7px 5px 5px #aaaaaa;
+}
+
+.container div {
+  font-size: 2rem;
+  padding: 0 0;
+  margin: 1rem 0;
+  color: black;
+  /* border-bottom: 1px gray solid; */
+  width: 100%;
+  text-align: center;
+}
+
+.input {
+  height: 3rem;
+}
+.input input {
+  height: 100%;
+  /* margin: 0.5rem 0.5rem; */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  color: black;
+  border-bottom: 1px rgb(47, 47, 47) solid;
+  background-color: white;
+}
+.input input:focus {
+  border: 0px !important;
+  /* background-color: red; */
+}
+
+#signup {
+  color: black;
+  width: 100%;
+  height: 100%;
+  height: 3rem;
+  border: 1px rgb(47, 47, 47) solid;
+  border-radius: 20px;
+  background-color: rgb(132, 132, 132);
+  /* position: relative; */
+}
+#signup input {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: rgb(132, 132, 132);
+  font-size: 1rem;
+  font-weight: bold;
+}
+form {
+  width: 80%;
+}
+form .input {
+  /* margin: 0 10px; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hintlabel {
+  margin: 0 auto;
+  /* width: 100%; */
+  max-width: 90%;
+  display: block;
+  font-size: 0.8rem;
+  text-wrap: wrap;
+  background-color: white;
+}
