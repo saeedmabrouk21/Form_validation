@@ -4,5 +4,6 @@ The DOM helped me add messages to the user indicating whether the validation pro
 Regex assisted me in string manipulation for specific patterns in different cases such as username, password, email, and ID.
 
 
-https://github.com/saeedmabrouk21/Form_validation/assets/73306180/315d1dba-f4bd-4b0d-a3d3-ad63d00a86c6
+
+https://github.com/saeedmabrouk21/Form_validation/assets/73306180/89276639-1d42-4113-97db-7f2ab9c9478e
 
